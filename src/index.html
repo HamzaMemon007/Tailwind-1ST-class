@@ -6,8 +6,23 @@
     <title></title>
     <link rel="stylesheet" href="./output.css">
 </head>
-<body>
-    <div  class="bg-slate-950 h-lvh flex justify-center items-center">
+<body class="bg-slate-950">
+    <header class="text-white flex justify-between p-4">
+        <div>
+            <span>Logo</span>
+        </div>
+        <div>
+            <ul class="flex gap-3">
+                <li class="ease-in-out duration-300 hover:scale-110 cursor-pointer"><a>Home</a></li>
+                <li class="ease-in-out duration-300 hover:scale-110 cursor-pointer"><a>About</a></li>
+                <li class="ease-in-out duration-300 hover:scale-110 cursor-pointer"><a>Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <button class="ease-in-out duration-300">Login</button>
+        </div>
+    </header>
+    <div  class=" h-lvh flex justify-center items-center">
        <form class="flex flex-col justify-center">
             <h1 class="text-center  font-bold text-3xl text-white">Login</h1>
             <label  class="text-slate-700 placeholder:">Email</label>
